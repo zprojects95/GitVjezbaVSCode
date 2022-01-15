@@ -17,7 +17,7 @@ namespace GitVjezba.Controllers
         public string Get()
         {
 
-            var message = "Ovo je poruka";
+            var message = "Vjezbamo Git";
 
             return message;
         }

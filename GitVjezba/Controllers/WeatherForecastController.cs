@@ -14,12 +14,16 @@ namespace GitVjezba.Controllers
        
 
         [HttpGet]
-        public string Get()
+        public List<string> Get()
         {
+            List<string> names = new List<string>
+            {
+                "Matija",
+                "Armin",
+                "Ammar"
+            };
 
-            var message = "Vjezbamo Git";
-
-            return message;
+            return names;
         }
     }
 }
